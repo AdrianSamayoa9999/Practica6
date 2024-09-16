@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+background-color: #665959;
+font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 22px;
+
+
+td {
+vertical-align: text-top;
+}
+
+ul {
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+color: red;
+}
+
+div {
+color: red;
+height: 100%;
+padding: 20px 10px 20px 40px;
+margin: 10px;
+border: 1px solid red;
+background-color: #b6b8a;
+border-radius: 15px;
+box-shadow: 2px 2px 5px #C0C2C3;
+}
+
+p {
+color: red;
+}
+
+h2
+{
+color: red;
+}
+
+h3
+{
+color: red;
+}
+
+* {
+background-color: black;
+}
+
+ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+    font-size: 22px; /*tamaño de letra*/
+    height: 60px; /*Altura de cada opción de la lista*/
+}
+
+ul li a {
+    height: 60px; /*Altura*/
+    background-color: #333; /*Color de fondo*/
+    display: block;
+    border-left: 10px solid red; /*Color de la izquierda*/
+    border-right: 5px solid rgb(32, 32, 32);
+    padding-left: 15px; /*Separación izquierda del texto*/
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+ul li a:hover {
+    margin-left: 10px; /*Separación del lado izquierdo*/
+    background-color: #bdb71b7; /*Color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*Sombra*/
+    transform: rotate(4deg); /*Movimiento de rotación*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+
+td {
+    vertical-align: top;
+}
